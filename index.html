@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./stylesheet.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="top">
+        <div class="item">
+          <svg
+            class="dashboard"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <g>
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+              />
+            </g>
+          </svg>
+          <h1>Dashboard</h1>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="item">
+          <svg
+            data-slot="icon"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M8.543 2.232a.75.75 0 0 0-1.085 0l-5.25 5.5A.75.75 0 0 0 2.75 9H4v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9h1.25a.75.75 0 0 0 .543-1.268l-5.25-5.5Z"
+            ></path>
+          </svg>
+          <div class="menu-items">Home</div>
+        </div>
+        <div class="item">
+          <svg
+            data-slot="icon"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              clip-rule="evenodd"
+              fill-rule="evenodd"
+              d="M3 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H3Zm2.5 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM10 5.75a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75Zm.75 3.75a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5ZM10 8a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5A.75.75 0 0 1 10 8Zm-2.378 3c.346 0 .583-.343.395-.633A2.998 2.998 0 0 0 5.5 9a2.998 2.998 0 0 0-2.517 1.367c-.188.29.05.633.395.633h4.244Z"
+            ></path>
+          </svg>
+          <div class="menu-items">Profile</div>
+        </div>
+        <div class="item">
+          <svg
+            data-slot="icon"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M1 8.74c0 .983.713 1.825 1.69 1.943.764.092 1.534.164 2.31.216v2.351a.75.75 0 0 0 1.28.53l2.51-2.51c.182-.181.427-.286.684-.294a44.298 44.298 0 0 0 3.837-.293C14.287 10.565 15 9.723 15 8.74V4.26c0-.983-.713-1.825-1.69-1.943a44.447 44.447 0 0 0-10.62 0C1.712 2.435 1 3.277 1 4.26v4.482Z"
+            ></path>
+          </svg>
+          <div class="menu-items">Message</div>
+        </div>
+        <div class="item">
+          <svg
+            data-slot="icon"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              clip-rule="evenodd"
+              fill-rule="evenodd"
+              d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8Zm7.75-4.25a.75.75 0 0 0-1.5 0V8c0 .414.336.75.75.75h3.25a.75.75 0 0 0 0-1.5h-2.5v-3.5Z"
+            ></path>
+          </svg>
+          <div class="menu-items">History</div>
+        </div>
+        <div class="item">
+          <svg
+            data-slot="icon"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M2 4a2 2 0 0 1 2-2h8a2 2 0 1 1 0 4H4a2 2 0 0 1-2-2ZM2 9.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 9.25ZM2.75 12.5a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H2.75Z"
+            ></path>
+          </svg>
+          <div class="menu-items">Tasks</div>
+        </div>
+        <div class="item">
+          <svg
+            data-slot="icon"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M8 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM3.156 11.763c.16-.629.44-1.21.813-1.72a2.5 2.5 0 0 0-2.725 1.377c-.136.287.102.58.418.58h1.449c.01-.077.025-.156.045-.237ZM12.847 11.763c.02.08.036.16.046.237h1.446c.316 0 .554-.293.417-.579a2.5 2.5 0 0 0-2.722-1.378c.374.51.653 1.09.813 1.72ZM14 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM3.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM5 13c-.552 0-1.013-.455-.876-.99a4.002 4.002 0 0 1 7.753 0c.136.535-.324.99-.877.99H5Z"
+            ></path>
+          </svg>
+          <div class="menu-items">Communities</div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="item">
+          <svg
+            data-slot="icon"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              clip-rule="evenodd"
+              fill-rule="evenodd"
+              d="M6.455 1.45A.5.5 0 0 1 6.952 1h2.096a.5.5 0 0 1 .497.45l.186 1.858a4.996 4.996 0 0 1 1.466.848l1.703-.769a.5.5 0 0 1 .639.206l1.047 1.814a.5.5 0 0 1-.14.656l-1.517 1.09a5.026 5.026 0 0 1 0 1.694l1.516 1.09a.5.5 0 0 1 .141.656l-1.047 1.814a.5.5 0 0 1-.639.206l-1.703-.768c-.433.36-.928.649-1.466.847l-.186 1.858a.5.5 0 0 1-.497.45H6.952a.5.5 0 0 1-.497-.45l-.186-1.858a4.993 4.993 0 0 1-1.466-.848l-1.703.769a.5.5 0 0 1-.639-.206l-1.047-1.814a.5.5 0 0 1 .14-.656l1.517-1.09a5.033 5.033 0 0 1 0-1.694l-1.516-1.09a.5.5 0 0 1-.141-.656L2.46 3.593a.5.5 0 0 1 .639-.206l1.703.769c.433-.36.928-.65 1.466-.848l.186-1.858Zm-.177 7.567-.022-.037a2 2 0 0 1 3.466-1.997l.022.037a2 2 0 0 1-3.466 1.997Z"
+            ></path>
+          </svg>
+          <div class="menu-items">Settings</div>
+        </div>
+        <div class="item">
+          <svg
+            data-slot="icon"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              clip-rule="evenodd"
+              fill-rule="evenodd"
+              d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0Zm-6 3.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM7.293 5.293a1 1 0 1 1 .99 1.667c-.459.134-1.033.566-1.033 1.29v.25a.75.75 0 1 0 1.5 0v-.115a2.5 2.5 0 1 0-2.518-4.153.75.75 0 1 0 1.061 1.06Z"
+            ></path>
+          </svg>
+          <div class="menu-items">Support</div>
+        </div>
+        <div class="item">
+          <svg
+            data-slot="icon"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              clip-rule="evenodd"
+              fill-rule="evenodd"
+              d="M8.5 1.709a.75.75 0 0 0-1 0 8.963 8.963 0 0 1-4.84 2.217.75.75 0 0 0-.654.72 10.499 10.499 0 0 0 5.647 9.672.75.75 0 0 0 .694-.001 10.499 10.499 0 0 0 5.647-9.672.75.75 0 0 0-.654-.719A8.963 8.963 0 0 1 8.5 1.71Zm2.34 5.504a.75.75 0 0 0-1.18-.926L7.394 9.17l-1.156-.99a.75.75 0 1 0-.976 1.138l1.75 1.5a.75.75 0 0 0 1.078-.106l2.75-3.5Z"
+            ></path>
+          </svg>
+          <div class="menu-items">Privacy</div>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <div class="upper-header">
+        <div class="left">
+          <svg
+            data-slot="icon"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              clip-rule="evenodd"
+              fill-rule="evenodd"
+              d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+            ></path>
+          </svg>
+          <input type="search" class="search" />
+        </div>
+        <div class="right">
+          <svg
+            data-slot="icon"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M3.6 1.7A.75.75 0 1 0 2.4.799a6.978 6.978 0 0 0-1.123 2.247.75.75 0 1 0 1.44.418c.187-.644.489-1.24.883-1.764ZM13.6.799a.75.75 0 1 0-1.2.9 5.48 5.48 0 0 1 .883 1.765.75.75 0 1 0 1.44-.418A6.978 6.978 0 0 0 13.6.799Z"
+            ></path>
+            <path
+              clip-rule="evenodd"
+              fill-rule="evenodd"
+              d="M8 1a4 4 0 0 1 4 4v2.379c0 .398.158.779.44 1.06l1.267 1.268a1 1 0 0 1 .293.707V11a1 1 0 0 1-1 1h-2a3 3 0 1 1-6 0H3a1 1 0 0 1-1-1v-.586a1 1 0 0 1 .293-.707L3.56 8.44A1.5 1.5 0 0 0 4 7.38V5a4 4 0 0 1 4-4Zm0 12.5A1.5 1.5 0 0 1 6.5 12h3A1.5 1.5 0 0 1 8 13.5Z"
+            ></path>
+          </svg>
+          <img class="cat-logo" src="./icons/cat-7016.png" alt="" />
+          <h4>Momen Alabsy</h4>
+        </div>
+      </div>
+      <div class="lower-header">
+        <div class="left">
+          <img class="cat-logo" src="./icons/cat-7016.png" alt="" />
+          <div>
+            <div>Hi there,</div>
+            <h3>Momen Alabsy(@momen)</h3>
+          </div>
+        </div>
+        <div class="right">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="projects">
+        <h3>Your Projects</h3>
+        <div class="cards">
+          <div class="card">
+            <h4>Super Cool Project</h4>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa
+            dolores facilis soluta eaque vero. Officiis, obcaecati? A recusandae
+            aut earum cupiditate veritatis asperiores eum. Iusto dolor quae
+            quidem obcaecati cumque!
+          </div>
+          <div class="card">
+            <h4>Less Cool Project</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+            error. Ad aliquid consequuntur accusantium quibusdam, ea, assumenda
+            pariatur aut ratione error illum iure nihil itaque distinctio est
+            earum excepturi tenetur.
+          </div>
+          <div class="card">
+            <h4>Impossible App</h4>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
+            reiciendis laborum, sint beatae minus saepe. Beatae, maiores harum
+            tempora quisquam earum sint officia, saepe asperiores eos impedit,
+            rerum at quam!
+          </div>
+          <div class="card">
+            <h4>Easy Peasy App</h4>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+            animi veritatis rerum natus nemo, reiciendis nihil odio dolorem iure
+            quod mollitia? Ipsum magni enim laudantium architecto cum quis ipsa
+            voluptates?
+          </div>
+          <div class="card">
+            <h4>Ad Blocker</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vero
+            quasi cumque ad natus enim aperiam laudantium, labore minima,
+            delectus quia voluptates maiores doloribus explicabo. Dolorem porro
+            ratione optio placeat.
+          </div>
+          <div class="card">
+            <h4>Money Maker</h4>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quasi
+            qui sit eum exercitationem aperiam. Harum, vitae dolore. Aliquid
+            officiis voluptatem harum ullam sapiente libero id consequatur
+            soluta possimus error!
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="announcements">
+          <h3>Announcements</h3>
+          <div class="announcements-cards">
+            <div>
+              <h4>Site Maintenance</h4>
+              Lorem ipsum dolor sit amet, conolore. Aliquid officiis voluptatem
+              harum ul
+            </div>
+            <hr />
+            <br />
+            <div>
+              <h4>Community Share Day</h4>
+              Nisi quasi qui sit eum exercitationem aperiam. Harum, v
+            </div>
+            <hr />
+            <br />
+            <div>
+              <h4>Updated Privacy Policy</h4>
+              officiis voluptatem harum ullam sapiente libero id consequatur
+              soluta possimus lore
+            </div>
+          </div>
+        </div>
+        <div class="trending">
+          <h3>Trending</h3>
+          <div class="trending-cards"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
